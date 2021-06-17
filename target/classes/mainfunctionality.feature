@@ -75,8 +75,8 @@ Feature: Main Functionality
         And User opens Product page
         And User clicks on Buy it now button
         When User clicks on check out as guest button
-#        And User clicks on Done button
-#        Then User checks errors
+        And User clicks on Done button
+        Then User checks errors
 
         Examples:
           | homePage              |
